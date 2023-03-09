@@ -11,7 +11,6 @@ int convertToInt(const string& str) {
         throw "Error: 올바른 숫자가 아닙니다.";
     } catch (const out_of_range&) {
         throw "Error: 숫자가 너무 큽니다.";
-    }
     return result;
 }
 

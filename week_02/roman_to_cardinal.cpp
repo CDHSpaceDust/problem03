@@ -11,10 +11,11 @@ int convertToInt(const string& str) {
         throw "Error: 올바른 숫자가 아닙니다.";
     } catch (const out_of_range&) {
         throw "Error: 숫자가 너무 큽니다.";
+    }
     return result;
 }
 
-string arabicToRoman(int num) {
+string arabicToRoman(int num){
     string roman = "";
     int arabic[] = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
     string romanNumeral[] = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
@@ -27,7 +28,6 @@ string arabicToRoman(int num) {
     }
 
     return roman;
-    
 }
 
 int main() {

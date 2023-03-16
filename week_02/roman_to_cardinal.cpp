@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <conio.h>
 
 using namespace std;
 
@@ -35,10 +36,9 @@ int main() {
     while (true) {
         cout << "숫자를 입력하세요 (종료: esc): ";
         getline(cin, strNum);
-        if (strNum == "esc") {
+        if (_getch() == 27) { // 단축키 esc 입력
             break;
         }
-
         try {
             int num = convertToInt(strNum);
             if (num < 1 || num > 3999) {

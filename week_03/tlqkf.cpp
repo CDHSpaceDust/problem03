@@ -5,6 +5,8 @@
 using namespace std;
 
 int main() {
-    cout << "HOLY SHIT" ;
+    cout << "HOLY SHIT " ;
+    cout << "IS THAT SASTER???";
+    cout << "YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO";
     return 0;
 }

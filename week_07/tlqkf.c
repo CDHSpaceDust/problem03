@@ -17,3 +17,32 @@ int main() {
     return 0;
 
 }
+
+
+
+/*
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+
+StrToInt(str) 
+{
+    //void 포인터를 활용해봅시다 (우와!)
+}
+
+int main() {
+    char option[100];
+    char str[100];
+
+    printf("input type : ");
+    printf("int");
+    printf("char");
+    printf("float");
+    printf("string");
+    fgets(str, sizeof(str), stdin);
+
+    if (option == "int") 
+    {
+
+    }
+}*/
